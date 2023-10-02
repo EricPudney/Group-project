@@ -25,7 +25,7 @@
         font-size: 2.5vw;
     }
 
-    .titles, .authors, .prices {
+    .titles, .authors, .prices, .section-link {
         font-size: 2vw;
     }
 }

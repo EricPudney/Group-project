@@ -3,7 +3,7 @@
         display: flex;
         justify-content: space-evenly;
         height: 4vh;
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     #topline{
@@ -26,6 +26,10 @@
 
     .titles, .authors, .prices {
         font-size: 3vw;
+    }
+
+    .section-link{
+        font-size: 2.5vw;
     }
 
 }
