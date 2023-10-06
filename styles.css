@@ -54,10 +54,16 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("banner.jpg");
-    background-size: contain;
 }
 
+#img-holder > img{
+    width:60vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+/* --old heading style, now replaced with image
 h1{
     color: yellowgreen;
     font-size: 5vw;
@@ -68,16 +74,17 @@ h1{
     -webkit-text-stroke-width: 2.5px;
     -webkit-text-stroke-color: red;
 }
+*/
+
 
 #tagline{
     font-size: 1.5vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 900;
-    color: yellowgreen;
+    font-style: italic;
+    color: grey;
     text-align: center;
     margin-bottom: 1rem;
-    -webkit-text-stroke-width: 1.2px;
-    -webkit-text-stroke-color: red;
 }
 
 #searchbar{
