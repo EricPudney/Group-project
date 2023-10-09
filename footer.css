@@ -1,0 +1,88 @@
+* {
+    font-family: 'Segoe UI Black', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    height: 14rem;
+  }
+
+#footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-line {
+    background: rgb(128, 128, 128, 0.5);
+    content: "";
+    display: block;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.1);
+    height: 1px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+footer h3 {
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
+}
+
+footer li {
+    list-style: none;
+    padding: 0.3rem;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
+
+footer i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#fblogo{
+    padding: 15px;
+    }
+
+#fblogo:hover{
+content: url("fbcolor.webp");
+transform: scale(1.2);
+}
+
+#instalogo{
+padding: 15px;
+}
+
+#instalogo:hover{
+content: url("instacolor.webp");
+transform: scale(1.2);
+}
+
+#twitterlogo{
+padding: 15px;
+}
+
+#twitterlogo:hover{
+content: url("twittercolor.webp");
+transform: scale(1.2);
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+}
+
+h5 {
+    color: grey;
+    font-style: italic; 
+    font-size: 0.8rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }

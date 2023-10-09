@@ -1,0 +1,74 @@
+@media (max-width: 480px) {
+    #navbar-top {
+        display: flex;
+        justify-content: space-evenly;
+        height: 4vh;
+        font-size: 4vw;
+    }
+
+    #topline {
+        font-size: 3.5vw;
+        gap: 0.5rem;
+        justify-content: space-between;
+    }
+
+    #login {
+        margin-left: 2vw;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    #tagline {
+        font-size: 4vw;
+    }
+
+    .titles,
+    .authors,
+    .prices {
+        font-size: 3vw;
+    }
+
+    .section-link {
+        font-size: 2.5vw;
+    }
+
+    footer {
+        height: 9rem;
+    }
+
+    #footer-wrapper li {
+        display: none;
+    }
+
+    #fblogo {
+        height: 30px;
+        width: 30px;
+    }
+
+    #fblogo:hover {
+        content: none;
+        transform: none;
+    }
+
+    #instalogo {
+        height: 30px;
+        width: 30px;
+    }
+
+    #instalogo:hover {
+        content: none;
+        transform: none;
+    }
+
+    #twitterlogo {
+        height: 30px;
+        width: 30px;
+    }
+
+    #twitterlogo:hover {
+        content: none;
+        transform: none;
+    }
+}
